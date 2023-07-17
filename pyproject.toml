@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "postsrestfulapi"
+version = "0.1.0"
+description = ""
+authors = ["Cecep Aprilianto <cecepaprilianto@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.3.2"
+flask-restful = "^0.3.10"
+flask-sqlalchemy = "^3.0.5"
+flask-migrate = "^4.0.4"
+flask-marshmallow = "^0.15.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
